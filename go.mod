@@ -1,6 +1,6 @@
 module maglev.onebusaway.org
 
-go 1.24.2
+go 1.25.9
 
 require (
 	github.com/OneBusAway/go-gtfs v1.1.1

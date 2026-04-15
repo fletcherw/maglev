@@ -8,7 +8,7 @@ A complete rewrite of the OneBusAway (OBA) REST API server in Golang.
 
 ### Option 1: Native Go Installation
 
-1. Install Go 1.24.2 or later.
+1. Install Go 1.25.9 or later.
 2. Copy `config.example.json` to `config.json` and fill in the required values.
 3. Run `make run` to build and start the server.
 4. Open your browser and navigate to `http://localhost:4000/healthz` to verify the server works.

@@ -5,7 +5,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ## Getting Started
 
 **Prerequisites** (choose one):
-- **Native**: Go 1.24.2 or later
+- **Native**: Go 1.25.9 or later
 - **Docker**: Docker 20.10+ and Docker Compose v2.0+
 
 **Setup**:
@@ -67,7 +67,7 @@ docker-compose -f docker-compose.dev.yml up
 ```
 
 **Docker Files:**
-- `Dockerfile` - Multi-stage production build (Go 1.24 + Alpine)
+- `Dockerfile` - Multi-stage production build (Go 1.25 + Alpine)
 - `Dockerfile.dev` - Development image with Air live reload
 - `docker-compose.yml` - Production configuration with volumes and health check
 - `docker-compose.dev.yml` - Development setup with source mounting
@@ -101,7 +101,7 @@ Before committing any code, you must always run all of these steps, and have the
 
 ## Architecture Overview
 
-This is a Go 1.24.2+ application that provides a REST API for OneBusAway transit data. The architecture follows a layered design:
+This is a Go 1.25.9+ application that provides a REST API for OneBusAway transit data. The architecture follows a layered design:
 
 ### File Structure
 
